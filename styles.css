@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+div.container {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+
+
+button.likeBtn, button.disLikeBtn {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+span{
+    border: none;
+    /* background-color: black;
+    color: #fff; */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.action-btn{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+
+}
+
+button.close-btn {
+    border: none;
+    
+    cursor: pointer;
+    margin-right: 0;
+}
+
+#list-container > li:nth-child(odd)
+{
+    background-color: grey ;
+    color: #fff ;
+}
+
+
+#list-container > li:nth-child(odd) .list-group-item {
+    background-color: inherit ;
+    color: inherit;
+  
+}
+
+li.row{
+    margin: auto;
+}
+
+
+.input-container{
+    margin-top: 50px;
+}
+
+.likeBtn:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+button.disLikeBtn:hover{
+cursor: pointer;
+background-color: red !important;
+}
+
+.close-btn:hover{
+    cursor: pointer;
+    background-color: lightcoral!important;
+    border-radius: 20px !important;
+   
+   
+}
+
+.header{
+    
+    background-color:black !important;
+    color: white !important;
+}
+
+.no-gutters-on-list > * {
+    padding-right: 0;
+    padding-left: 0;
+ 
+
+}
+
+/* li.row.no-gutters-on-list {
+    border-radius: 20px;
+
+} */
